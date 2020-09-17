@@ -1,0 +1,25 @@
+Instructions and Requirements for Workshop.
+
+There are several requirments you will need to have downlaoded in order for this 
+workshop to run smoothly. The following dependencies will be needed:
+- Python 3.7
+- Tensorflow 
+- Pandas
+- Flask
+- Flask-restful
+- Boto3
+
+If you are using Anaconda as your defualt interpter you can create a new conda env for python 3.7 with the following command inside anaconda prompt.
+
+conda create -n py37 python=3.7 anaconda
+
+The librarires can be solved by using a classic conda install or a pip install (I recommend using conda given its flexible solve method). 
+
+Furthermore, you will need to download the application Dockertoolbox. I have included the link to the intructions here: https://docs.docker.com/toolbox/toolbox_install_windows/
+
+Lastly, this is not required but is going to be required to fully follow along with the workshop. Otherwise you will have to do your best to follow along without interaction. You will need an AWS account with access to ECS, ECR, S3, and Lambda. It would also be very benefical to have an AWS redshift db access. I have included a link to the resources here: 
+https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/
+
+You will be able to follow along without any of these things, but it will not be interactive, and the experience will be more like a presentation. Thanks in advance. If you have any questions please feel free to email me at:
+andrew.downs@perceptionhealth.com
+
